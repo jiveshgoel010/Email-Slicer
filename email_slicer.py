@@ -20,7 +20,9 @@ while choice == "Yes" or choice == "yes" or choice=="Y" or choice=="y":
 
     #Asking the user whether to add another email address or to proceed
     choice = input("Do you want to add another email address ? (Yes/No) - ") 
-
+else:
+    print("Not valid. Enter valid choice. (Yes/No) ")
+    choice = input("Do you want to add another email address ? (Yes/No) - ")
 
 #Function to slice the email addresses
 def slicer(item):
